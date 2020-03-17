@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2:400,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+body{
+    background-color: rgb(42, 2, 54);
+}
+
+#corpo{
+    width: 800px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border-left: 2px solid #CCC;
+    border-right: 2px solid #CCC ;
+    opacity: 0.8; /*Deixa o elemento 'transparente'*/
+}
+
+#topo{
+    padding: 20px 25px; /*Espaçamento entre as bordas*/
+    border-bottom: 2px solid #CCC;
+}
+
+#topo a{
+    color: rgb(152, 83, 175);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#topo a:hover{
+    color: rgb(88, 34, 104);
+}
+
+#conteudo{
+    background-color: #FFF;
+    padding: 20px 25px;
+}
+
+section h1{
+font: 24px;
+color: rgb(88, 34, 104);
+margin-bottom: 20px;
+}
+
+#conteudo article{
+    margin-bottom: 20px;
+}
+
+article h2{
+padding-bottom: 7px;
+}
+
+article h2 a{
+text-decoration: none;
+font-size: 22px;
+color: rgb(152, 83, 175);
+}
+
+article h2 a:hover{
+color: rgb(88, 34, 104);
+}
+
+article p{
+font-size: 18px;  
+color: rgb(151, 15, 201);
+padding-left: 2px;
+}
